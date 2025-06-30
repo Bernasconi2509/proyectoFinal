@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.encabezado {
+     background-color: #34a651;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 80px;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex; 
+    gap: 30px; 
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fondoimg {
+     width: 100%;
+  height: auto;
+  display: block;
+ }
+
+.microscopiosadultos, .microscopiosniños, .kitquimica, .SistemaSolar  {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+
+main {
+    background-color: #34a651;
+    color: white;
+}
+
+.producto {
+  background-color: #1a612c;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  
+}
+
+.producto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.losproductos {
+    text-align: center;
+}
+
+video{
+    display: block;
+}
+
+iframe {
+    border: 15px solid #1a612c;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+form {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 20px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+form label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer {
+    background-color: #103519;
+    color: white;
+    padding: 20px;
+}
+
+footer h2, footer h3, footer h5, footer li, footer a, footer p {
+    color: white;
+    font-size: 16px;
+
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer h3.texto {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texto{
+    font-size: 2rem;
+    background-color: #1a612c;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.videoseccion {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
