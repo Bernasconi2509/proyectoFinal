@@ -91,6 +91,86 @@ iframe {
     padding: 5px;
 }
 
+.reseñas {
+  padding: 2rem;
+  background-color: #28a745;
+}
+
+.reseñas h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.reseñas-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.opinion {
+  background-color: #0b512d;
+  border-radius: 15px;
+  color: white;
+  width: 18%;
+  min-width: 180px;
+  max-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.opinion img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.texto p {
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 0.5rem 0;
+  line-height: 1.3;
+}
+
+.estrellas {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+  color: gold;
+}
+
+.autor {
+  font-style: italic;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #ccc;
+}
+
+/* Responsivo */
+@media (max-width: 1200px) {
+  .opinion {
+    width: 22%;
+  }
+}
+
+@media (max-width: 900px) {
+  .opinion {
+    width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .opinion {
+    width: 100%;
+  }
+}
+
 form {
     display: flex;
     align-items: flex-start;
