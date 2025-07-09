@@ -90,6 +90,13 @@ iframe {
     border: 15px solid #1a612c;
     border-radius: 10px;
     padding: 5px;
+    width: 100%;
+  max-width: 800px;  
+  min-width: 500px;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .reseñas {
