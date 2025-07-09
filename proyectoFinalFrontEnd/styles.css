@@ -172,17 +172,17 @@ iframe {
 }
 
 .formas-pago {
+  background-color: #004d2c; /* Verde oscuro */
+  color: white;
+  padding: 30px 20px;
   text-align: center;
-  background-color: #f4f4f4;
-  padding: 30px 15px;
   border-radius: 15px;
-  margin: 30px auto;
-  max-width: 1000px;
+  margin: 20px;
 }
 
-.formas-pago h2 {
-  color: #006699;
-  font-size: 2em;
+.formas-pago h2,
+.formas-pago p {
+  color: white;
   margin-bottom: 10px;
 }
 
@@ -190,26 +190,55 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   margin-top: 20px;
 }
 
 .pago {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: white;
+  color: #004d2c;
+  border-radius: 12px;
   width: 120px;
+  padding: 15px 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.pago:hover {
+  transform: scale(1.05);
 }
 
 .pago img {
-  width: 80px;
-  height: auto;
+  width: 50px;
+  height: 50px;
   margin-bottom: 10px;
+  object-fit: contain;
 }
 
 .pago p {
-  font-size: 1em;
-  color: #333;
+  margin: 0;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .pago {
+    width: 100px;
+    padding: 10px;
+  }
+
+  .pago img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .formas-pago h2 {
+    font-size: 1.3rem;
+  }
+
+  .formas-pago p {
+    font-size: 0.9rem;
+  }
 }
 
 
