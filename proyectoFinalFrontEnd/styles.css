@@ -82,6 +82,25 @@ main {
     text-align: center;
 }
 
+.boton-agregar {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 15px;
+  background-color: #1a612c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.boton-agregar:hover {
+  background-color: #28a745;
+}
+
+
 video{
     display: block;
 }
@@ -180,7 +199,7 @@ iframe {
 }
 
 .formas-pago {
-  background-color: #014421; /* Verde oscuro */
+  background-color: #014421; 
   color: white;
   text-align: center;
   padding: 40px 20px;
@@ -197,7 +216,7 @@ iframe {
 
 .pago {
   background-color: white;
-  color: #014421; /* Texto en verde oscuro */
+  color: #014421; 
   width: 160px;
   padding: 20px;
   border-radius: 15px;
@@ -270,23 +289,20 @@ form label {
 }
 
 .carrito {
-  background-color: #34a651; /* Fondo verde claro */
-  width: 100%;
+  background-color: #34a651;
   padding: 40px 0;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
 }
 
-.carrito > div {
-  background-color: #0b512d; /* Recuadro verde oscuro */
+.carrito-contenido {
+  background-color: #0b512d; 
   color: white;
   max-width: 900px;
-  width: 90%;
+  margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
   box-sizing: border-box;
 }
+
 
 .carrito h2 {
   font-size: 1.8rem;
@@ -306,6 +322,7 @@ form label {
   color: white;
 }
 
+
 #lista-carrito {
   list-style: none;
   padding: 0;
@@ -323,6 +340,7 @@ form label {
 .producto-carrito-nombre {
   flex: 2;
 }
+
 
 .cantidad-control {
   display: flex;
@@ -353,10 +371,12 @@ form label {
   font-weight: bold;
 }
 
+
 .producto-carrito-precio {
   flex: 1;
   text-align: right;
 }
+
 
 .btn-eliminar {
   background-color: #cc3333;
@@ -373,44 +393,13 @@ form label {
   background-color: #ff5555;
 }
 
+
 .carrito-total {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: right;
   border-top: 2px solid rgba(255,255,255,0.3);
   padding-top: 10px;
-}
-
-/* 🌐 RESPONSIVO */
-@media (max-width: 768px) {
-  .carrito > div {
-    width: 90%;
-    padding: 15px;
-  }
-
-  #lista-carrito li {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-
-  .producto-carrito-nombre,
-  .producto-carrito-precio,
-  .cantidad-control {
-    flex: unset;
-    width: 100%;
-    text-align: left;
-  }
-
-  .carrito h2 {
-    font-size: 1.4rem;
-    justify-content: center;
-  }
-
-  .carrito-total {
-    text-align: center;
-    font-size: 1.2rem;
-  }
 }
 
 
