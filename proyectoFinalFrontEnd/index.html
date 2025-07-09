@@ -42,6 +42,7 @@
                 <h3>Microscopio óptico</h3>
                 <p>Ideal para estudiantes curiosos. Aumenta hasta 1000x.</p>
                 <span>$246000</span>
+                <button class="agregar-carrito" data-nombre="Microscopio óptico" data-precio="246000">Agregar al carrito</button>
             </div>
 
             <div class="producto">
@@ -49,6 +50,7 @@
                 <h3>Microscopio digital</h3>
                 <p>Con conexión USB para ver en pantalla. Alta resolución.</p>
                 <span>$200000</span>
+                <button class="agregar-carrito" data-nombre="Microscopio digital" data-precio="200000">Agregar al carrito</button>
             </div>
 
             <div class="producto">
@@ -56,6 +58,7 @@
                 <h3>Microscopio Para Adultos Y Niños</h3>
                 <p>100x-2000x</p>
                 <span>$500000</span>
+                <button class="agregar-carrito" data-nombre="Microscopio Adultos y Niños" data-precio="500000">Agregar al carrito</button>
             </div>
 
         </section>
@@ -72,6 +75,8 @@
                 <h3>Microscopio Infantil</h3>
                 <p>Ideal para niños curiosos</p>
                 <span>$120000</span>
+                <button class="agregar-carrito" data-nombre="Microscopio Infantil" data-precio="120000">Agregar al carrito</button>
+
             </div>
 
             <div class="producto">
@@ -79,6 +84,8 @@
                 <h3>Microscopio Completo</h3>
                 <p>Con todos los instrumentos necesarios para explorar</p>
                 <span>$90000</span>
+                <button class="agregar-carrito" data-nombre="Microscopio Completo niños" data-precio="90000">Agregar al carrito</button>
+
             </div>
 
             <div class="producto">
@@ -86,6 +93,7 @@
                 <h3>Microscopio Para Niños</h3>
                 <p>Con su maletín transportable</p>
                 <span>$26000</span>
+                <button class="agregar-carrito" data-nombre="Microscopio Niños con maletín" data-precio="26000">Agregar al carrito</button>
             </div>
 
         </section>
@@ -102,6 +110,7 @@
                     <h3>Kit de Química</h3>
                     <p>Completo con diferentes experimentos</p>
                     <span>$30000</span>
+                    <button class="agregar-carrito" data-nombre="Kit de Química" data-precio="30000">Agregar al carrito</button>
                 </div>
 
                 <div class="producto">
@@ -109,6 +118,7 @@
                     <h3>Juego de Química</h3>
                     <p>Incluye un manual con instrucciones</p>
                     <span>$17000</span>
+                    <button class="agregar-carrito" data-nombre="Juego de Química" data-precio="17000">Agregar al carrito</button>
                 </div>
 
                 <div class="producto">
@@ -116,6 +126,7 @@
                     <h3>Caja de Química</h3>
                     <p>Con su mesa de experimentación</p>
                     <span>$24000</span>
+                    <button class="agregar-carrito" data-nombre="Caja de Química" data-precio="24000">Agregar al carrito</button>
                 </div>
 
         </section>
@@ -132,6 +143,7 @@
                     <h3>Sistema Solar</h3>
                     <p>Completo con diferentes colores</p>
                     <span>$46000</span>
+                    <button class="agregar-carrito" data-nombre="Sistema Solar completo" data-precio="46000">Agregar al carrito</button>
                 </div>
 
                 <div class="producto">
@@ -139,6 +151,8 @@
                     <h3>Kit Sistema Solar</h3>
                     <p>Armar y pintar cada planeta</p>
                     <span>$16000</span>
+                    <button class="agregar-carrito" data-nombre="Kit Sistema Solar" data-precio="16000">Agregar al carrito</button>
+
                 </div>
 
                 <div class="producto">
@@ -146,6 +160,7 @@
                     <h3>Sistema Planetario</h3>
                     <p>Con un simple proyector</p>
                     <span>$26000</span>
+                    <button class="agregar-carrito" data-nombre="Sistema Planetario con proyector" data-precio="26000">Agregar al carrito</button>
                 </div>
 
         </section>
@@ -155,8 +170,7 @@
             
         <section>
                 
-                <iframe width="1358" height="660" 
-                src="https://www.youtube.com/embed/fln82xudLMc" 
+                <iframe src="https://www.youtube.com/embed/fln82xudLMc" 
                 title="El Sistema Solar para niños | Los Exploradores del Espacio | Shackleton Kids" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -273,6 +287,15 @@
         </section>
 
     </main>
+
+        <section id="carrito" class="carrito">
+            <h2>Carrito de compras</h2>
+            <div>
+                <ul id="lista-carrito"></ul>
+                 <p>Total: $<span id="total">0</span></p>
+            </div>
+        </section>
+
 
 <footer>
     <h3>Ciencia para Curiosos</h3>
