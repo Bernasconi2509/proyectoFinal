@@ -171,6 +171,48 @@ iframe {
   }
 }
 
+.formas-pago {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 30px 15px;
+  border-radius: 15px;
+  margin: 30px auto;
+  max-width: 1000px;
+}
+
+.formas-pago h2 {
+  color: #006699;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.medios-pago {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.pago {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+}
+
+.pago img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.pago p {
+  font-size: 1em;
+  color: #333;
+}
+
+
 form {
     display: flex;
     align-items: flex-start;
