@@ -100,7 +100,7 @@ const productos = [
   }
 ];
 
-// 2. Función que crea la tarjeta de producto
+
 function crearTarjeta(producto) {
   const div = document.createElement("div");
   div.className = "producto";
@@ -114,7 +114,7 @@ function crearTarjeta(producto) {
   return div;
 }
 
-// 3. Mostrar productos por categoría
+
 function mostrarProductos() {
   for (let i = 0; i < productos.length; i++) {
     let prod = productos[i];
@@ -127,9 +127,9 @@ function mostrarProductos() {
   activarBotones();
 }
 
-mostrarProductos(); // Mostrar todo al cargar
+mostrarProductos();
 
-// 4. Carrito
+
 let carrito = [];
 
 function agregarAlCarrito(id) {
