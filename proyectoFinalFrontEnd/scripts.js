@@ -1,6 +1,5 @@
 console.log("ok");
 
-
 const productos = [
   {
     id: 1,
